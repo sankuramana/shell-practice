@@ -5,6 +5,6 @@
  if [ $NUMBER -le 10 ];
   then
      echo " this number is less than : $NUMBER"
-    fi 
     else 
 echo "this number is greater than : $NUMBER"
+fi

@@ -1,7 +1,7 @@
 #!/bin/bash
 # this is conversation between two persons
-person1=ramana
-person2=raju
+person1=babu
+person2=papa
 
 echo "$person1 :: hi $person2 how are you?"
 echo  "$person2 :: heloo $person1 how are you?"

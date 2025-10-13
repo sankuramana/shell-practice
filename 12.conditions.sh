@@ -6,5 +6,5 @@
   then
      echo " this number is less than : $NUMBER"
     fi 
-else 
+    else 
 echo "this number is greater than : $NUMBER"

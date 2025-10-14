@@ -7,4 +7,4 @@ say_hello() {
 }
 
 # Call the function
-say_hello
+say_hello ramana

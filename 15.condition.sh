@@ -6,7 +6,7 @@
 
   if [ $USERID -eq 0 ]; then 
   echo "ERROR :: please run this script with root priviliages"
-  exit 1
+  
 dnf  install mysql -y
 fi
   if [ $? -eq 0 ]; then 

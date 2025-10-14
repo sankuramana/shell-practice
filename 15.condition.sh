@@ -8,7 +8,7 @@
   echo "ERROR :: please run this script with root priviliages"
   exit 1
 dnf  install mysql -y
-if
+fi
   if [ $? -eq 0 ]; then 
 dnf istall nginx -y
 fi

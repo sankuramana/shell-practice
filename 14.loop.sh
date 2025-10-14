@@ -4,12 +4,10 @@
   
   USER=$(id -u)
 
-  if [ $USER -ne 0 ]; then 
-  echo "please run with root user"
-  fi
-  dnf install mysql  -y
-  if [ $? -eq 0 ]; then 
-  echo "error istalling mysql is failure "
+  if [ $USER -eq 0 ]; then 
+  echo "this is root user"
   else 
-  echo "istalling mysql is successes"
-  fi 
+  echo "this is normal user"
+  fi
+
+  

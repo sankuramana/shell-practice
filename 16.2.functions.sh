@@ -15,8 +15,8 @@ echo " instalation $2 is failed"
  fi 
  }
  dnf install mysql -y
- VALIDATE $1 "mysql"
+ VALIDATE $? "mysql"
  dnf install nginx -y
- VALIDATE $1 "nginx"
+ VALIDATE $? "nginx"
  
  

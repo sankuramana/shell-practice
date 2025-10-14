@@ -2,8 +2,8 @@
 
 #chceking if user is root or normal user and installing mysql and python and nginx
 
-  ech"this is not root user"
-  if [ $? -eq 0 ]; then 
+  echo "this is not root user"
+  if [ $? -nq 0 ]; then 
   echo "helolo babu"
   echo "please use root user"
   fi 

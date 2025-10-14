@@ -10,6 +10,6 @@
 dnf  install mysql -y
 fi
   if [ $? -eq 0 ]; then 
-dnf istall nginx -y
+dnf install nginx -y
 fi
 echo "both istalled succesfully"

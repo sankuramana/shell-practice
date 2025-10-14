@@ -3,7 +3,7 @@
 
 # Define a function
 say_hello() {
-  echo "Hello!$1  & $2 Welcome to shell scripting."
+  echo "Hello!$1 & $2 Welcome to shell scripting.$4"
 }
 
 # Call the function

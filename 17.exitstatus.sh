@@ -9,5 +9,6 @@
   echo "please use root user"
     exit 1
   fi
+ dnf install mysql -y
   echo "hello"
 

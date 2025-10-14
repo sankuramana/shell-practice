@@ -7,7 +7,8 @@
   if [ $USER -ne 0 ]; then 
   echo "this is not root user"
   echo "please use root user"
-    exit 1
+    exit 0
+
   fi
  dnf install mysql -y
   echo "hello"

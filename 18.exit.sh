@@ -4,7 +4,7 @@
 
   echo "this is not root user"
   if [ $? -eq 0 ]; then 
-  echo"helolo babu"
+  echo "helolo babu"
   echo "please use root user"
   fi 
   

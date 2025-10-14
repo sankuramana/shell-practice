@@ -12,3 +12,4 @@
   echo "error istalling mysql is failure "
   else 
   echo "istalling mysql is successes"
+  fi 

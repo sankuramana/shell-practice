@@ -6,10 +6,10 @@
 
   if [ $USERID -nq 0 ]; then 
   echo "ERROR :: please run this script with root priviliages"
-  fi
-  dnf istall mysql -y
-  if []
-  
-  fi
-
-  
+  exit 1
+dnf  install mysql -y
+if
+  if [ $? -eq 0 ]; then 
+dnf istall nginx -y
+fi
+echo "both istalled succesfully"

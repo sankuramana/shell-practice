@@ -1,12 +1,14 @@
 #!/bin/bash
 
-#chceking if user is root or normal user
+#chceking if user is root or normal user and installing mysql and python and nginx
   
   USER=$(id -u)
 
-  if [ $USER -eq 0 ]; then 
-  echo "proceed"
-  else 
-  echo "to install mysql run with root user"
-  dnf install mysql -y
+  if [ $USER -ne 0 ]; then 
+  echo "please run with root user"
   fi
+  dnf install mysql  -y
+  if [ $? -eq 0 ]; then 
+  echo "error istalling mysql is failure "
+  else 
+  echo "istalling mysql is successes"

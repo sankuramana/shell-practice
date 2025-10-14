@@ -4,7 +4,7 @@
   
   USER=$(id -u)
 
-  if [ USER -eq 0 ]; then 
+  if [ $USER -eq 0 ]; then 
   echo "proceed"
   else 
   echo "to install mysql run with root user"

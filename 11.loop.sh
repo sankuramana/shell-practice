@@ -1,10 +1,10 @@
 #!/bin/bash
 Userid=$(id -u)
-if [ $userid = 0 ];
+if [ $userid == 0 ];
    then
    echo "please use root user" 
    else  
-   dnf Install mysql -y
+   dnf install mysql -y
   dnf install nginx -y
 
 fi 

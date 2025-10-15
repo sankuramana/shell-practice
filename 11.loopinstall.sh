@@ -20,6 +20,7 @@ userid=$(id -u)
     echo " $pakage installed succuesfully "
     else
     echo " $pakage installation is failed"
+    fi
   }
   
   install_packages mysql

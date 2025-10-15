@@ -1,8 +1,8 @@
 #!/bin/bash
-dnf list installed mysql
+dnf list installed nginx
  if [ $? -ne 0 ];
  then 
- echo "already istalled mysql"
+ echo "already istalled nginx"
  else 
- dnf install mysql -y
+ dnf install nginx -y
  fi 

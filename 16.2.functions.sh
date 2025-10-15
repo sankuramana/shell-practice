@@ -15,8 +15,8 @@ echo " instalation $2 is failed"
  fi 
  }
  dnf install mysql -y
- VALIDATE $? "mysql"
+ VALIDATE $? "mysql" #here we are calling functions to print echos like what if failed and what if success
  dnf install nginx -y
- VALIDATE $? "nginx"
+ VALIDATE $? "nginx" #  $? taking input form the previos command exit code as 0 and string as nginix
  
  

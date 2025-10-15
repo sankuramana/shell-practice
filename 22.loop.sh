@@ -3,11 +3,11 @@
 
 #!/bin/bash
 
-echo "You entered these names:"
+echo "You entered these numbers:"
 
-for name in $@
+for numbers in $@
 do
-  echo "👉 $name"
+  echo "👉 $numbers"
 done
 
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 userid=$(id -u)
-if [ $userid -eq 0 ];
+if [ $userid -ne 0 ];
    then
    echo "please use root user" 
    else  

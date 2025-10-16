@@ -18,7 +18,7 @@ for package in $@
             fi 
             if [ $? -eq 0 ]; 
             then 
-            echo " $package Already up to date"
+            echo " $package instalation is success"
             else 
             echo " failed"
         fi 

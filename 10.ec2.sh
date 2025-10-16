@@ -5,10 +5,11 @@ if [ $userid -ne 0 ];
     echo "installing $packge is not possible as normal user"
     exit 1
 fi
-     echo "installing $package"
+    
 
 for package in $@
     do
+     echo "installing $package"
             dnf installed list $package
         if [ $? -eq 0 ];
             then 

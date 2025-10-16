@@ -8,3 +8,7 @@ if [ $userid -ne 0 ];
   dnf install nginx -y
 
 fi 
+install_package()
+{
+    
+}

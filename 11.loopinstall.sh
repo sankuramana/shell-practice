@@ -23,5 +23,5 @@ userid=$(id -u)
     echo " $pakage installation is failed" >> $LOG_FILE
     fi
   }
-  
+
   install_packages mysql

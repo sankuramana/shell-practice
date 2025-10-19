@@ -12,5 +12,9 @@ NC='\033[0m' # No Color
 echo -e " $R today date is $DATE $N"
 echo -e "$R sum is $sum $N"
 echo -e "$NC sum is $sum $N"
+echo -e "$R sum is $sum "
+
+echo "date is $DATE"
+
 
 

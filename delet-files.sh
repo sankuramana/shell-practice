@@ -8,12 +8,14 @@ echo -e " -ERROR:: $source_dir dose not exit"
 exit 1
 fi
 #internal field separator
-#filepath is the varialename
+#filepath is the variable name
 files_to_delete=$(find $source_dir -name "*.log" -size +1c)
 
 while IFS= read -r filepath
 do
 echo "deleting the file: $filepath"
 rm -rf $filepath
+echo "deleted the file: $filepath"
+
 
 done <<<$files_to_delete

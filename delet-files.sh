@@ -9,7 +9,7 @@ exit 1
 fi
 #internal field separator
 #filepath is the variable name
-files_to_delete=$(find $source_dir -name "*.log" -mtime +14 -size +1c)
+files_to_delete=$(find $source_dir -name "*.log" -mtime +14 )
 
 while IFS= read -r filepath
 do

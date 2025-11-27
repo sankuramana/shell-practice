@@ -11,7 +11,7 @@ fi
 #filepath is the varialename
 files_to_delete=$(find $source_dir -name "*.log" -size +1c)
 
-while IFS=read -r filepath
+while IFS= read -r filepath
 do
 echo "deleting the file: $filepath"
 

@@ -38,3 +38,15 @@ if [ ! -d $DEST_DIR ]; then
 echo -e " $R $DEst_DIR is not exist $N "
 exit 1
 fi
+
+fi
+
+### Find the files ####
+FILES=$(find $SOURCE_DIR -name "*.log" -type f -mtime +$DAYS)
+#empty kakapote we need to something.
+#empty aithe chesedhi emle
+if [ ! -z "${FILES}"]; then 
+echo -e " $G files found $N"
+else 
+echo " no files to archive  $Y SKIPPING $N""
+fi

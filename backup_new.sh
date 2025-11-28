@@ -26,6 +26,6 @@ USAGE(){
     echo -e "$R USAGE:: sudo sh 24-backup.sh <SOURCE_DIR> <DEST_DIR> <DAYS>[optional, default 14 days] $N"
     exit 1
 }
-if [ $# -lt 2]; then
+if [ $# -lt 2 ]; then
 USAGE
 fi
